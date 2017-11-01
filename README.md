@@ -20,7 +20,9 @@ I this project, I built three models, RNN, CNN and VADER to do sentiment analysi
 3. VADR: 0.6984
 
 ## Analysis
-The result of RNN is better than that of CNN. I think the reason is that RNN keep the locality of the word, while CNN is more like bag-of-word that do not maintain locality info. RNN is very slow becasue Recurrent neural networks scale poorly due to the intrinsic difficulty in parallelizing their state computations. VADER do not perform as well as neural network on large dataset, becasue VADER is rule based and it does not learn, the performance is static. 
+The result of RNN is better than that of CNN. I think the reason is that RNN keep the locality of the word, while CNN is more like bag-of-word that do not maintain locality info. </br>
+RNN is very slow becasue Recurrent neural networks scale poorly due to the intrinsic difficulty in parallelizing their state computations. On the other hand, Convolutions are a central part of computer graphics and implemented on a hardware level on GPUs. </br>
+VADER do not perform as well as neural network on large dataset, becasue VADER is rule based and it does not learn, the performance is static. 
 
 ## References
 http://www.wildml.com/2015/11/understanding-convolutional-neural-networks-for-nlp/ </br>
